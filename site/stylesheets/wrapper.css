@@ -1,10 +1,10 @@
 #wrapper {
   margin: 0 auto;
-  padding: 12px 20px 0 20px; }
+  padding: 12px 20px 0 20px;
+  text-align: left; }
   #wrapper #main-content {
     width: 68%;
-    float: left;
-    text-align: left; }
+    float: left; }
     #wrapper #main-content .bloc {
       background: #ffffff url('../images/right-bg.gif') repeat-y right;
       padding: 0 8px 0 0; }
@@ -37,6 +37,24 @@
       background: transparent url(../images/bottom-bg.gif) no-repeat scroll right top;
       height: 7px;
       margin: 0 0 30px 0; }
+  #wrapper #sidebar {
+    width: 32%;
+    float: left; }
+    #wrapper #sidebar .bloc {
+      margin: 0 0 0 5px; }
+      #wrapper #sidebar .bloc h2 {
+        border-bottom: 1px solid #DCDCDC;
+        color: #333333;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        padding: 2px 5px;
+        background: #F0F0F0; }
+      #wrapper #sidebar .bloc p {
+        font-size: 12px;
+        line-height: 1.4em;
+        margin: 0 0 20px;
+        padding: 10px 5px; }
 
 #wrapper-clear {
   clear: both; }
