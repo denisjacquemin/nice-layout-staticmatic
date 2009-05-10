@@ -1,7 +1,8 @@
 Nice Layout staticmatic
 ===
 
-Simple layout theme inspired done with staticmatic (haml & sass)
+Simple layout theme done with staticmatic (haml & sass)
+
 Feel free to use/fork it.
 
 Credits
