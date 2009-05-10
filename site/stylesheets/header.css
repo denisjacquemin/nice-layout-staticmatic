@@ -55,6 +55,8 @@
           border: 1px solid #E5E5E5;
           color: #222222;
           font-weight: bold; }
+        #header h2.tabs ul li a.float-right {
+          float: right; }
   #header h1 {
     font-size: 24px;
     font-weight: normal;
