@@ -17,10 +17,19 @@
           font-family: "Lucida Grande",arial,sans-serif;
           margin: 0;
           padding: 0;
-          display: inline; }
+          display: inline;
+          float: left; }
         #wrapper #main-content .bloc .header .sub-tabs {
           color: #CCCCCC;
-          font-size: 12px; }
+          font-size: 12px;
+          float: left;
+          margin: 0 0 0 5px; }
+        #wrapper #main-content .bloc .header .actions {
+          float: right;
+          font-size: 12px;
+          display: inline; }
+        #wrapper #main-content .bloc .header .clear {
+          clear: both; }
       #wrapper #main-content .bloc .content {
         background: #ffffff;
         padding: 20px; }

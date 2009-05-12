@@ -12,22 +12,23 @@
     text-align: right;
     position: relative;
     float: right;
-    padding: 0 15px 0; }
+    padding: 0 15px 0;
+    color: #999999; }
     #header h3 a {
       padding: 6px 3px;
       color: #999999; }
     #header h3 a:hover {
       background-color: #EFEFEF;
       color: #000000; }
-  #header h2.tabs {
+  #header h2 {
     height: 25px;
     margin: 0 15px 0 30px;
     padding: 0;
     font-weight: normal; }
-    #header h2.tabs ul {
+    #header h2 ul {
       padding: 0;
       margin: 0; }
-      #header h2.tabs ul li {
+      #header h2 ul li {
         border: medium none;
         display: inline;
         list-style-image: none;
@@ -36,7 +37,7 @@
         margin: 0;
         padding: 0;
         font-size: 11px; }
-        #header h2.tabs ul li a {
+        #header h2 ul li a {
           float: left;
           margin: 0;
           text-decoration: none;
@@ -46,16 +47,16 @@
           border-style: solid;
           border-width: 1px;
           color: #ffffff; }
-        #header h2.tabs ul li a:hover {
+        #header h2 ul li a:hover {
           background: #E5E5E5;
           color: #222222;
           border-color: #000000 #000000 #E5E5E5; }
-        #header h2.tabs ul li a.current {
+        #header h2 ul li a.current {
           background: #E5E5E5;
           border: 1px solid #E5E5E5;
           color: #222222;
           font-weight: bold; }
-        #header h2.tabs ul li a.float-right {
+        #header h2 ul li a.float-right {
           float: right; }
   #header h1 {
     font-size: 24px;
