@@ -1,0 +1,30 @@
+#main-content
+  .bloc
+    .header 
+      %h1 Simple form
+    .content
+      %h2 Informations
+      %fieldset
+        .field
+          .info
+            %label{:for => "title"} Title
+          .input
+            %input{:type => "text", :name => "title", :id => "title"}
+          .help ie: example of title
+        .field
+          .info
+            %label{:for => "description"} Description
+          .input
+            %textarea{:rows => '5', :name => "description", :id => "description"}
+          .help ie: example of description
+        .field
+          .info
+            %label{:for => "price"} Price ($)
+          .input
+            %input{:type => "text", :name => "price", :id => "price"}
+          .help ie: example of price
+  .bloc-bottom
+#sidebar
+  .bloc
+    %h2 Nice form
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#" class="blue-link small-link">sed do eiusmod tempor</a> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <strong>laboris</strong> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

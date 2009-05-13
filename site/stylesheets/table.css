@@ -1,0 +1,23 @@
+#main-content .bloc table {
+  width: 100%;
+  margin: 10px 0 20px 0;
+  border-left: 1px solid #D8D8D8;
+  border-right: 1px solid #D8D8D8;
+  border-top: 1px solid #D8D8D8;
+  font-family: Monaco, "Courier New", monospace; }
+  #main-content .bloc table th {
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0.5em 0.3em;
+    text-align: left;
+    background-color: #EAEAEA;
+    color: #999999;
+    font-weight: normal;
+    font-size: 13px; }
+  #main-content .bloc table td {
+    background: #F8F8F8 url(../images/row-bg.png) repeat-x scroll 0 100%;
+    border-bottom: 1px solid #E1E1E1;
+    color: #484848;
+    padding: 0.5em 0.3em;
+    font-size: 12px; }
+    #main-content .bloc table td .action-link {
+      font-size: 11px; }

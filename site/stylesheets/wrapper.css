@@ -17,19 +17,20 @@
           font-family: "Lucida Grande",arial,sans-serif;
           margin: 0;
           padding: 0;
-          display: inline;
-          float: left; }
-        #wrapper #main-content .bloc .header .sub-tabs {
-          color: #CCCCCC;
-          font-size: 12px;
-          float: left;
-          margin: 0 0 0 5px; }
-        #wrapper #main-content .bloc .header .actions {
-          float: right;
-          font-size: 12px;
           display: inline; }
-        #wrapper #main-content .bloc .header .clear {
-          clear: both; }
+          #wrapper #main-content .bloc .header h1 span {
+            float: left; }
+          #wrapper #main-content .bloc .header h1 .sub-tabs {
+            color: #CCCCCC;
+            font-size: 12px;
+            float: left;
+            margin: 0 0 0 5px;
+            float: left; }
+          #wrapper #main-content .bloc .header h1 .actions {
+            float: right;
+            font-size: 12px;
+            display: inline;
+            float: right; }
       #wrapper #main-content .bloc .content {
         background: #ffffff;
         padding: 20px; }
@@ -38,7 +39,16 @@
           font-size: 14px;
           font-family: "Lucida Grande",arial,sans-serif;
           margin: 0;
-          padding: 0; }
+          padding: 0;
+          display: inline; }
+          #wrapper #main-content .bloc .content h2 span {
+            float: left; }
+          #wrapper #main-content .bloc .content h2 .right {
+            font-size: 11px;
+            text-align: right;
+            float: right;
+            color: #555555;
+            font-weight: normal; }
         #wrapper #main-content .bloc .content p {
           font-size: 12px;
           line-height: 16px; }
