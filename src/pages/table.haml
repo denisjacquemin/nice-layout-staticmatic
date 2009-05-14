@@ -1,0 +1,90 @@
+#main-content
+  .bloc
+    .header 
+      %h1 
+        %span Actives Properties
+        .sub-tabs
+          |
+          %a.blue-link.wide-link{:href => '/properties/archived.html', :title => 'Access to archived properties'} Archived
+        .actions
+          %a.action-link.wide-link{:href => '/properties/new.html', :title => 'Create a new property'} New
+        .clear
+    .content
+      %h2
+        .right
+          sort by 
+          %select
+            %option creation date
+            %option price
+            %option title
+            %option location
+        .clear
+      %table{:cellpadding => 0, :cellspacing => 0}
+        %tr
+          %th title
+          %th price
+          %th location
+          %th creation date
+          %th Status
+        %tr
+          %td 
+            %a.blue-link{:href => '/properties/show.html'} bla bla 
+            %a.action-link{:href => '/properties/edit.html'}edit
+            %a.action-link{:href => '/properties/edit.html'}delete 
+          %td $ 350 000
+          %td Marche en Famenne
+          %td yesterday
+          %td offline
+        %tr
+          %td 
+            %a.blue-link{:href => '/properties/edit.html'}Maison 5 chambres
+            %a.action-link{:href => '/properties/edit.html'}edit
+            %a.action-link{:href => '/properties/edit.html'}archive
+          %t
+          %td $ 250 900
+          %td Rochefort
+          %td 12 of march
+          %td offline
+        %tr
+          %td 
+            %a.blue-link{:href => '/properties/show.html'}Jolie fermette
+            %a.action-link{:href => '/properties/edit.html'}edit
+            %a.action-link{:href => '/properties/edit.html'}archive
+          %td $ 350 000
+          %td Marche en Famenne
+          %td yesterday
+          %td online
+        %tr
+          %td 
+            %a.blue-link{:href => '/properties/edit.html'}Maison 5 chambres
+            %a.action-link{:href => '/properties/edit.html'}edit
+            %a.action-link{:href => '/properties/edit.html'}archive
+          %td $ 250 900
+          %td Rochefort
+          %td 12 of march
+          %td online
+        %tr
+          %td 
+            %a.blue-link{:href => '/properties/show.html'}Jolie fermette
+            %a.action-link{:href => '/properties/edit.html'}edit 
+            %a.action-link{:href => '/properties/edit.html'}archive
+          %td $ 350 000
+          %td Marche en Famenne
+          %td yesterday
+          %td offline
+        %tr
+          %td 
+            %a.blue-link{:href => '/properties/edit.html'}Maison 5 chambres
+            %a.action-link{:href => '/properties/edit.html'}edit
+            %a.action-link{:href => '/properties/edit.html'}archive 
+          %td $ 250 900
+          %td Rochefort
+          %td 12 of march
+          %td option
+ 
+          
+          
+          
+  .bloc-bottom
+#sidebar
+  .bloc
